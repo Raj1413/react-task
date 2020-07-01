@@ -1,0 +1,25 @@
+.homeDiv{
+    padding: 20px;
+    height: 94vh;
+}
+.homeDiv .searchIcon {
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    
+}
+.tableSearch{
+ height: 40px;
+}
+.tableSearch > input{
+ height: 30px;
+ width: 100%;
+ font-size: 16px;
+ padding-left: 35px;
+ padding-right: 35px;
+ border-radius: 5px;
+}
+
+.dataTable{
+    height: calc(95vh - 50px);
+}

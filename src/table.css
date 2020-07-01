@@ -1,0 +1,44 @@
+table{
+   width: 100%;
+}
+
+table > thead > tr {
+    color: rgba(0,0,0,.85);
+    background: #d8d8d8;
+    border-bottom: 1px solid #f0f0f0;
+    height: 50px;
+}
+table > thead > tr > th {
+    padding-left: 10px;
+    text-transform: capitalize;
+    text-align: left;
+}
+table > tbody > tr > td {
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+table > tbody > tr > td {
+    color: rgba(0,0,0,.85);
+    background: #fafafa;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background .3s ease;
+    height: 35px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.pagination{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+.page{
+    margin: 0px 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 20px;
+    text-align: center;
+}
+.active{
+    background:#4e8bff;
+}
